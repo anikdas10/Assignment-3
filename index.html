@@ -28,7 +28,7 @@
       <nav class="container px-5 lg:px-20 mx-auto ">
         <div class="navbar">
   <div class="navbar-start flex items-center">
-    <i class="fa-solid fa-arrow-right -rotate-[45deg] text-xl lg:text-2xl bg-[#ABEF5F] px-2.5 py-1 rounded-full mr-2 "></i>
+    <i class="fa-solid fa-arrow-right -rotate-[45deg] text-sm lg:text-2xl bg-[#ABEF5F] px-2 py-1 lg:px-2.5 rounded-full mr-2 "></i>
     <h2 class="text-xl md:text-4xl font-bold bg-button-bg">Rinterio</h2>
   </div>
   <div class="navbar-center hidden lg:flex">
@@ -166,26 +166,52 @@
                         </p>
                 </div>
                 <!-- Grid column section -->
-                 <div class="grid grid-cols-8 grid-rows-5 md:row-4 gap-4 mb-4">
+                 <div class="grid grid-cols-12 gap-4 mt-8">
+                    <!-- card-1 -->
                     <div
-                        class="col-span-8 lg:col-span-5  bg-gradient-to-r from-red-100 to-red-50 rounded-xl"
-                     ></div>
-                     <div class="bg-orange-50 rounded-xl col-span-8 lg:col-span-3 p-4 h-fit">
-                     <img class="w-full" src="assets/img2.png" alt="" />
+                        class="col-span-12 lg:col-span-8 border rounded-xl  p-5 order-1 md:order-none">
+                          <div class="flex flex-col lg:flex-row gap-4">
+                            <div class="lg:w-1/3 h-48 lg:h-auto">
+                            <img src="assets/img1.png" class="w-full h-full" alt="">
+                          </div>
+                         <div class=" space-y-2 lg:w-2/3">
+                           <h2 class="text-lg lg:text-2xl font-bold">Commercial</h2>
+                           <p class=" text-xs lg:text-sm">Explore our latest commercial portfolio, showcasing innovative designs that combine functionality with modern aesthetics.Each project reflects our commitment to creating inspiring, liveable spaces.</p>
+                           <button class=" text-lg lg:text-xl  font-bold">View Details <i class="fa-solid fa-arrow-right -rotate-[45deg] text-xs lg:text-2xl  bg-[#ABEF5F] py-1 px-2 lg:px-2.5 rounded-full"></i> </button>
+                          </div>
+                          </div>
+                      </div>
+                     <!-- card-2 -->
+                     <div class="border rounded-xl col-span-12 lg:col-span-4 p-4 order-2 md:order-none ">
+                     <img class="w-full h-full" src="assets/img2.png" alt="" />
                      </div>
-                     <div class="bg-stone-100 rounded-xl col-span-8 lg:col-span-2 p-4 ">
-                    <img class="lg:w-full h-full" src="assets/img3.png" alt="" />
+                     <!-- card-3 -->
+                     <div class=" rounded-xl col-span-12 lg:col-span-3 p-4 border order-5">
+                    <img class="w-full h-48 lg:h-full" src="assets/img3.png" alt="" />
                    </div>
+                   <!-- card-4 -->
                     <div
-                    class=" bg-gradient-to-r from-stone-200 col-span-8 lg:col-span-4 to-stone-100 rounded-xl"
-                    ></div>
-                    <div class="bg-stone-100 rounded-xl col-span-8 lg:col-span-2 p-4">
-                    <img class="lg:w-full h-full" src="assets/img5.png" alt="" />
+                        class="col-span-12 lg:col-span-6 border rounded-xl  p-5 order-4">
+                          <div class="flex flex-col lg:flex-row gap-4">
+                            <div class="lg:w-1/2 h-48 lg:h-auto border">
+                            <img src="assets/img4.png" class="w-full h-full" alt="">
+                          </div>
+                         <div class=" space-y-2 lg:w-1/2">
+                           <h2 class="text-lg lg:text-2xl font-bold">Commercial</h2>
+                           <p class=" text-xs lg:text-sm overflow-hidden">Explore our latest commercial portfolio, showcasing innovative designs that combine functionality with modern aesthetics.</p>
+                           <button class=" text-lg lg:text-xl  font-bold">View Details <i class="fa-solid fa-arrow-right -rotate-[45deg] text-xs lg:text-2xl  bg-[#ABEF5F] py-1 px-2 lg:px-2.5 rounded-full"></i> </button>
+                          </div>
+                          </div>
+                      </div>
+                      <!-- card-5 -->
+                    <div class="bg-stone-100 rounded-xl col-span-12 lg:col-span-3 p-4 order-3 md:order-none">
+                    <img class="w-full h-48 lg:h-full " src="assets/img5.png" alt="" />
+                   </div>
+                   <!-- card-6 -->
+                    <div class="bg-stone-100 rounded-xl col-span-12 md:hidden p-4 order-6 md:order-none">
+                    <img class="w-full h-48 lg:h-full " src="assets/img5.png" alt="" />
                    </div>
                 </div>
-
-                 
-
             </div>
          </section>
     </main>
